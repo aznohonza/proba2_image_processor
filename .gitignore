@@ -1,0 +1,6 @@
+# Exclude example outputs to keep the repository small
+examples/
+
+# Exclude generated output files
+*.gif
+*.webp
