@@ -114,4 +114,4 @@ ENHANCEMENT_NAME = "official"
 ## Acknowledgements
 
 Special thanks to @soplica.pl on Discord for providing the calibration image and test data.
-Special thanks to 
+Special thanks to @seler1500 on Discord for providing test data.
