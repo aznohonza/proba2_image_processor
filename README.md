@@ -44,8 +44,8 @@ pip install numpy imageio opencv-python
 
 ## Usage
 
-1. Place your SWAP images in a folder (e.g., "SWAP/")
-2. Make sure you have the calibration image (`.calibration.png`) in the same directory as the script
+1. Place your SWAP images (raw b&w images) in a folder (e.g., "SWAP/")
+2. Make sure you have the calibration image (`calibration.png`) in the same directory as the script
 3. Configure the settings at the top of the script
 4. Run the script:
 

@@ -80,7 +80,9 @@ ENHANCEMENTS = {
 }
 
 # Load calibration image (thanks to @soplica.pl on discord for providing this image)
-calibration_img = cv2.imread(".calibration.png")
+script_dir_path = os.path.dirname(os.path.realpath(__file__))
+cal_img_path = os.path.join(script_dir_path, "calibration.png")
+calibration_img = cv2.imread(cal_img_path)
 
 # Compute circular mask for SWAP images to save on computing image scores
 h, w = calibration_img.shape[:2]
