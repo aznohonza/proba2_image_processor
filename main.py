@@ -84,6 +84,9 @@ script_dir_path = os.path.dirname(os.path.realpath(__file__))
 cal_img_path = os.path.join(script_dir_path, "calibration.png")
 calibration_img = cv2.imread(cal_img_path)
 
+# Add full path to the input dir
+INPUT_DIR = os.path.join(script_dir_path, INPUT_DIR)
+
 # Compute circular mask for SWAP images to save on computing image scores
 h, w = calibration_img.shape[:2]
 MASK = np.zeros((h, w), dtype=np.uint8)
